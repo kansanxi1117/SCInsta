@@ -3,6 +3,9 @@
 # https://github.com/ISnackable/YTCubePlus/blob/main/.github/workflows/Build.yml
 # https://github.com/BandarHL/BHTwitter/actions/workflows/build.yml
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 name: Build and Package SCInsta
 
 on:
